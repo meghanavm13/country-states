@@ -10,7 +10,6 @@ function getCountries(allCountries) {
         countries.options.add(option);
     }
 }
-
 function collectCountries() {
     fetch(url).then(response => {
         if (response.ok) {
@@ -49,7 +48,6 @@ function stateDropdown(allStates) {
     }
 }
 function getStates() {
-
     fetch(stateUrl()).then(response => {
         if (response.ok) {
             return response.json();

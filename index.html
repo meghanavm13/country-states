@@ -1,0 +1,26 @@
+<html>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<body>
+    <div class='intro'>
+        <h1>
+            <strong>Country-States</strong>
+        </h1>
+        <h2> Pick a country! Find a state!</h2>
+    </div>
+    <div class=instructions>
+        <p1> Pick a country from the drop down menu and then pick a cooresponding state from the second drop down menu.</p1>
+    </div>
+    <div class=dropdowns>
+        <select id='country' onchange='getStates();'>
+            <option> Choose a Country!</option>
+        </select>
+
+        <select id='states'>
+            <option> Choose a State!</option>
+        </select>
+    </div>
+</body>
+
+</html>

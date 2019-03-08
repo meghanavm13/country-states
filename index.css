@@ -1,0 +1,41 @@
+h1 {
+    color: blue;
+    font-family: sans-serif;
+    font-size: 40;
+}
+
+h2 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intro {
+    background-color: lightsalmon;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.instructions {
+    background-color: lightgray;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 100x;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+p1 {
+    font-size: 18;
+}
